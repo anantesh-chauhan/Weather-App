@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blue; */
+}
+.searchbox{
+    padding-top: 15px;
+    background-color: aquamarine;
+    height: 200px;
+    width: 330px;
+    border: 2px red solid;
+    border-radius: 5px;
+    text-align: center;
+
+} 
+.searchbox label{
+    margin-top: 25px;
+    font-size: 1.7rem;
+    font-weight: 700; 
+    color: rgb(175, 3, 89);
+    font-style: italic;
+}
+.searchbox input{
+   background-color: burlywood;
+   margin-top: 15px;
+   height: 50px;
+   border-radius: 10px;
+   border: 2px goldenrod solid;
+   font-size: 1.2rem;
+   font-weight: 700;
+}
+.searchbox button{
+   margin: 15px;
+   padding: 5px;
+   height: 40px;
+   width: 100px;
+   border: none;
+   background-color: black;
+   color: antiquewhite;
+   border: 2px green solid;
+   color: rgb(22, 98, 197);
+   font-size: 1.2rem;
+}
+

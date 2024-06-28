@@ -1,0 +1,11 @@
+.infobox{
+    background-color: aquamarine;
+    height: 300px;
+    width: 350px;
+    text-align: center;
+}
+.infobox p{
+    margin-top: 20px;
+    font-size: 1.2rem;
+
+}
