@@ -15,9 +15,13 @@ function InfoBox({info}){
         <div className='infobox'>
           <h1>Weather</h1>
           <h1>City: {info.city}</h1>
-          <p>Feels Like: {info.feels_like}</p>
           <p>Temp: {info.temp}</p>
+          <p>Feels Like: {info.feels_like}</p>
+          <p>Max. Temp: {info.temp_max}</p>
+          <p>Min. Temp: {info.temp_min}</p>
           <p>Wind Speed : {info.wind_speed}</p>
+          <p>Wind Deg.: {info.wind_deg}</p>
+          <p>Humidity: {info.humidity}</p>
         </div>
     )
 }
